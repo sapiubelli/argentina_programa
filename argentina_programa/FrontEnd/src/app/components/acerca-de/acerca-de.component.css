@@ -1,0 +1,11 @@
+.row{
+    padding: 10px;
+}
+div{
+    background-color: blueviolet;
+    text-align: center;
+}
+/* etiqueta nombre */
+#nombre{
+    font-weight: bold;
+}
