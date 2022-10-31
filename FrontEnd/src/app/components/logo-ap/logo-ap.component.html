@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/hidroponia.hidrovalle.9" target="_blank"><img src="../../../assets/facebook.png" id="facebook"></a>
+            <a href="https://github.com/sapiubelli/argentina_programa" target="_blank"><img src="../../../assets/github.png" id="github"></a>
+            <a href="https://www.instagram.com/hidroponia_hidrovalle/" target="_blank"><img src="../../../assets/instagram.png" id="instagram"></a>
+            <a href="https://www.youtube.com/watch?v=2Gtr_4HZSfQ" target="_blank"><img src="../../../assets/youtube.png" id="youtube"></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+        </div>
+    </div>
+</div>
+

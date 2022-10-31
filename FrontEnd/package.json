@@ -1,0 +1,48 @@
+{
+  "name": "sap_arg_prog",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~14.2.7",
+    "@angular/cdk": "^14.2.5",
+    "@angular/common": "~14.2.7",
+    "@angular/compiler": "~14.2.7",
+    "@angular/core": "~14.2.7",
+    "@angular/forms": "~14.2.7",
+    "@angular/material": "^14.2.5",
+    "@angular/platform-browser": "~14.2.7",
+    "@angular/platform-browser-dynamic": "~14.2.7",
+    "@angular/router": "~14.2.7",
+    "bootstrap": "^5.1.3",
+    "ng-circle-progress": "^1.6.0",
+    "rxjs": "~7.4.0",
+    "source-map-resolve": "^0.6.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.6",
+    "@angular/cli": "^14.2.6",
+    "@angular/compiler-cli": "~14.2.7",
+    "@types/jasmine": "~3.10.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~3.10.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.1.0",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "typescript": "~4.8.4"
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.",
+  "main": "karma.conf.js",
+  "author": "Sergio Ariel Piubelli",
+  "license": "ISC"
+}

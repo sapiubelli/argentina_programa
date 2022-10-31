@@ -1,0 +1,64 @@
+.row{
+    padding: 20px;
+    background: #fff;
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 550px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    color:#666;
+  }
+
+.titulo{
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: left;
+}
+
+div{
+    background: #fff;
+}
+
+.texto {
+    font-family:Calibri; 
+    font-size:18px; 
+    text-align:center;
+    }
+ 
+
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:550px;
+    }
+}
+
+
+/*etiqueta nombre*/
+#nombre{
+font-weight: bold;
+font-family:Californian FB; 
+font-size:50px; 
+}
+
+
+h1, h3{
+    padding: 10px;
+    /*background-color:#EED7B7;*/
+    font-family:Calibri; 
+    font-size:26px; 
+    text-align:center;
+    margin:50px 50 50 50;
+    color:#404040;
+    font-weight: bold;
+}

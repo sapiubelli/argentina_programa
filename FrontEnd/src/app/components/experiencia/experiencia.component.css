@@ -1,0 +1,25 @@
+.row{
+    padding: 20px;
+}
+div{
+    background: #fff;
+}
+.textoT {
+    font-family:Calibri; 
+    font-size:18px; 
+    font-weight: bold;
+    }
+.textoS {
+        font-family:Calibri; 
+        font-size:18px; 
+}
+
+h1, h3{
+    padding: 10px;
+    background-color:#EED7B7;
+    font-family:Calibri; 
+    font-size:22px; 
+    text-align:left;
+    margin:50px 50 50 50;
+    color:#404040;
+}
